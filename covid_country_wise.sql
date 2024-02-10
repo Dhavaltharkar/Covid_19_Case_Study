@@ -21,7 +21,7 @@ ORDER BY OverallDeaths DESC
 LIMIT 1;
 
 
--- Q3.. Find the country with lowest nymber of active cases?
+-- Q3. Find the country with lowest nymber of active cases?
 
 SELECT Country, MAX(Recovered) AS Cure
 FROM country_wise
